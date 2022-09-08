@@ -146,3 +146,110 @@ function showCurrentStep() {
   });
 }
 */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    height: 100%;
+    background-color: pink;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 5px;
+    background-color: rgb(239, 233, 232);
+    position: relative;
+    overflow: scroll;
+    box-shadow: 10px 0 60px brown;
+  }
+  .card {
+    display: grid;
+  }
+  .h3-headers {
+    font-size: 15px;
+    padding: 5px 5px;
+    color: #777;
+    margin: 2px;
+  }
+  h3 {
+    margin: 15px 0 5px 0;
+  }
+  h4 {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding: 0 30px;
+  }
+  .step-row {
+    display: none;
+  }
+  .form .inp1 {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 13px;
+    background: transparent;
+  }
+  .btn-box {
+    display: none;
+  }
+  .gender-age {
+    margin: 13px 0 13px 0;
+  }
+  form button {
+    width: 60px;
+    background: linear-gradient(to right, rgb(174, 215, 170), rgb(66, 197, 15));
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  .specific-skill {
+    margin: 10px 10px;
+    padding: 0 30px;
+  }
+
+  .more-info {
+    margin: 10px 0;
+  }
+  .skills-check {
+    display: initial;
+    padding: 10px 10px;
+  }
+  .break-div {
+    font-size: 12px;
+    width: 50%;
+    float: left;
+    padding: 5%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .break-div2 {
+    font-size: 12px;
+    width: 40%;
+    float: right;
+    padding: 5%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .reasons-break {
+    font-size: 12px;
+    width: 40%;
+    float: left;
+    padding: 10px 20px;
+    text-align: left;
+  }
+  .reasons-break2 {
+    font-size: 12px;
+    float: right;
+    width: 40%;
+    padding: 10px 0px;
+    text-align: left;
+  }
+  .inp1new {
+    margin: 10px;
+  }
+  .file-upload {
+    margin: 20px;
+  }
+}
