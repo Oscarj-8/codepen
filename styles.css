@@ -18,7 +18,7 @@ body {
   background: rgb(239, 233, 232);
   border-radius: 5px;
   position: relative;
-
+  overflow: hidden;
   box-shadow: 10px 0 60px brown;
 }
 .h3-headers {
@@ -37,7 +37,6 @@ h4 {
   right: 2.5%;
   position: absolute;
   top: 50px;
-  transition: 0.5s;
 }
 form .inp1 {
   width: 80%;
